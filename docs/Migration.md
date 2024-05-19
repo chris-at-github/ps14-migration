@@ -9,10 +9,21 @@
   - [ ] Environment/Directory Status
 - [ ] TYPO3 austauschen -> auf Version 11
 - [ ] DDEV neu starten
+- [ ] Database Compare
+  - [ ] Add fields to tables
+  - [ ] Change fields
 - [ ] Migration Wizard aus v11 durchführen
 - [ ] TYPO3 austauschen -> auf Version 12
 - [ ] PHP Version in DDEV auf Version 8.2 anpassen
 - [ ] DDEV neu starten
+- [ ] Database Compare
+  - [ ] Add fields to tables
+  - [ ] Change fields
+- [ ] Install Tool aufrufen (https://kist-escherich-com-v12.ddev.site/typo3/install.php)
+  - [ ] Dump-Autoload
+  - [ ] Cache Clear
+  - [ ] Environment/Directory Status
+- [ ] Migration Wizard aus v12 durchführen
 
 # Offene Punkte
 - [ ] Datenbankfelder aus diesen Extensions übertragen
