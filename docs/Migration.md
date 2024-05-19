@@ -24,6 +24,10 @@
   - [ ] Cache Clear
   - [ ] Environment/Directory Status
 - [ ] Migration Wizard aus v12 durchführen
+- [ ] Backend / Extensions
+  - [ ] Update Extension List
+  - [ ] tt_address installieren
+  - [ ] ps14_foundation installieren
 
 # Offene Punkte
 - [ ] Datenbankfelder aus diesen Extensions übertragen
