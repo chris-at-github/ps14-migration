@@ -1,7 +1,7 @@
 <?php
 
 // BE
-$GLOBALS['TYPO3_CONF_VARS']['BE']['installToolPassword'] = '$2y$12$ShyYPFPwEOjSRr0qbfp19OQJTbMSPgMhyEm99TrkyRbKiHZNul18q';
+$GLOBALS['TYPO3_CONF_VARS']['BE']['installToolPassword'] = '$argon2i$v=19$m=65536,t=16,p=1$UGNQY3NkMnBBLmpwamVnbw$hXi4HsVscr9LOytHDMl4658rirLxEBiq8dS2Rltmu7k';
 $GLOBALS['TYPO3_CONF_VARS']['BE']['debug'] = '1';
 
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = 'kist-escherich-com-v12.ddev.site';
