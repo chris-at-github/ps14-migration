@@ -27,11 +27,15 @@
 - [ ] Backend / Extensions
   - [ ] Update Extension List
   - [ ] tt_address installieren
-  - [ ] ps14_foundation installieren
+  - [ ] ps14_site installieren (ps14_foundation wird mit installiert)
+  - [ ] ps14_theme installieren
+- [ ] Migrationsskripte
+  - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0100-include-root-ts.php
+  - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0110-transfer-db-field-values.php
 
 # Offene Punkte
 - [ ] Datenbankfelder aus diesen Extensions übertragen
-  - [ ] Xo -> Foundation
+  - [x] Xo -> Foundation
   - [ ] Xna -> Site
   - [ ] Akkordeon -> Akkordeon
 - [ ] CeDownloads:
