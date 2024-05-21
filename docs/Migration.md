@@ -1,5 +1,6 @@
 # Schritte TYPO3 Core Update
 - [ ] Livedatenbank einspielen (ddev import-db --file=sql/*.sql)
+- [ ] Download aller Dateien aus fileadmin
 - [ ] TYPO3 austauschen -> auf Version 10
 - [ ] Dateien kopieren
   - [ ] dist/typo3conf/*
@@ -42,8 +43,9 @@
   - [ ] Sonderfall wkhtmltopdf Felder berücksichtigen
   - [ ] wkhtmltopdf fixen
 - [ ] XNA Anpassungen
-  - [ ] Layout
-  - [ ] Übernahme SitesConfig
+  - [ ] Übernahme TCA-Einstellungen
+  - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
+  - [ ] Übernahme TSConfig Einstellungen
 
 # Offene Extensions
 - [ ] Chart -> wird in EnityProduct integriert
