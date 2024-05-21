@@ -48,6 +48,9 @@
   - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
   - [ ] Übernahme TSConfig Einstellungen
   - [ ] Übernahme Classes/*
+  - [ ] Anpassung SitesYaml
+    - [ ] Aufruf von sitemap.xml
+    - [ ] Aufruf von robots.txt
 - [ ] Styling
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
