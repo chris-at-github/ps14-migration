@@ -37,13 +37,14 @@
 # Offene Punkte
 - [ ] Datenbankfelder aus diesen Extensions übertragen
   - [x] Xo -> Foundation
-  - [ ] Xna -> Site
+  - [x] Xna -> Site
   - [ ] Akkordeon -> Akkordeon
-- [ ] CeDownloads:
+- [ ] CeDownloads|Ps14Downloads
   - [ ] Sonderfall wkhtmltopdf Felder berücksichtigen
   - [ ] wkhtmltopdf fixen
-- [ ] XNA Anpassungen
-  - [ ] Übernahme TCA-Einstellungen
+- [ ] XNA|Ps14Site Anpassungen
+  - [x] Übernahme TCA-Einstellungen aus tt_content (auskommentiert)
+  - [ ] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
   - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
   - [ ] Übernahme TSConfig Einstellungen
 

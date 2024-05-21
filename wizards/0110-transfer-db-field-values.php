@@ -21,7 +21,9 @@ $query = 'UPDATE tt_content SET
 	tx_foundation_print_break = tx_xo_print_break,
 	tx_foundation_print_visibility = tx_xo_print_visibility,
 	tx_foundation_section_menu_title = tx_xo_section_menu_title,
-	tx_foundation_readmore = tx_xo_readmore';
+	tx_foundation_readmore = tx_xo_readmore,
+	tx_site_wkhtmltopdf_enabled = tx_xna_wkhtmltopdf_enabled,
+	tx_site_wkhtmltopdf_title = tx_xna_wkhtmltopdf_title';
 $result = $db->query($query);
 
 // Categories
