@@ -44,9 +44,16 @@
   - [ ] wkhtmltopdf fixen
 - [ ] XNA|Ps14Site Anpassungen
   - [x] Übernahme TCA-Einstellungen aus tt_content (auskommentiert)
-  - [ ] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
+  - [x] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
   - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
   - [ ] Übernahme TSConfig Einstellungen
+  - [ ] Übernahme Classes/*
+- [ ] Styling
+  - [ ] CTA Button im Editor
+  - [ ] Abstand Überschrift im Keyfacts Modul
+
+# Back-Port zu ps14_site Extension
+- [ ] Konfiguration RTE *.yaml-Dateien 
 
 # Offene Extensions
 - [ ] Chart -> wird in EnityProduct integriert
