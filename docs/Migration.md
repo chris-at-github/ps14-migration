@@ -46,7 +46,10 @@
   - [x] Übernahme TCA-Einstellungen aus tt_content (auskommentiert)
   - [x] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
   - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
-  - [ ] Übernahme TSConfig Einstellungen
+  - [ ] Übernahme Configuration
+    - [ ] TSConfig
+    - [ ] TypoScript
+    - [ ] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
   - [ ] Anpassung SitesYaml
     - [ ] Aufruf von sitemap.xml
