@@ -56,6 +56,9 @@
       - [ ] Überprüfung Regeln für entityproduct_keyfact
       - [ ] Überprüfung Regeln für powermail_pi1
     - [ ] TypoScript
+      - [ ] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
+      - [ ] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
+      - [ ] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
     - [ ] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
   - [x] Anpassung SitesYaml (https://forge.typo3.org/issues/87095)
@@ -70,6 +73,7 @@
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
 - [ ] Entfernung von Configuration/PageTS/*.tsconfig Dateien und Anlegen von leeren Dateien laut Namensdefintion
+- [ ] Übernahme Basis-Regel für settings.picture in ps14_site/Configuration/TypoScript/Navigation/Default.setup.typoscript
 
 # Offene Extensions
 - [ ] Chart -> wird in EnityProduct integriert
