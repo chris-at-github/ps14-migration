@@ -48,6 +48,13 @@
   - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
   - [ ] Übernahme Configuration
     - [ ] TSConfig
+      - [ ] Wird das Disabled von tx_fed_page_* noch benötigt?
+      - [ ] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation
+      - [ ] Überprüfung Regeln für ps14_hero
+      - [ ] Überprüfung Regeln für tx_foundation_domain_model_elements
+      - [ ] Überprüfung Regeln für ps14teaser_frontend
+      - [ ] Überprüfung Regeln für entityproduct_keyfact
+      - [ ] Überprüfung Regeln für powermail_pi1
     - [ ] TypoScript
     - [ ] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
@@ -62,6 +69,7 @@
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
+- [ ] Entfernung von Configuration/PageTS/*.tsconfig Dateien und Anlegen von leeren Dateien laut Namensdefintion
 
 # Offene Extensions
 - [ ] Chart -> wird in EnityProduct integriert

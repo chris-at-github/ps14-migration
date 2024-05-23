@@ -26,6 +26,11 @@ $query = 'UPDATE tt_content SET
 	tx_site_wkhtmltopdf_title = tx_xna_wkhtmltopdf_title';
 $result = $db->query($query);
 
+$query = 'UPDATE tt_content SET 
+		tx_foundation_variant = "default"
+	WHERE tx_foundation_variant = 0';
+$result = $db->query($query);
+
 // Categories
 $query = 'UPDATE sys_category SET 
 	tx_foundation_link = tx_xo_link';
