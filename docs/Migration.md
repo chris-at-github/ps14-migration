@@ -51,9 +51,11 @@
     - [ ] TypoScript
     - [ ] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
-  - [ ] Anpassung SitesYaml
-    - [ ] Aufruf von sitemap.xml
-    - [ ] Aufruf von robots.txt
+  - [x] Anpassung SitesYaml (https://forge.typo3.org/issues/87095)
+    - [x] Aufruf von sitemap.xml
+    - [x] Aufruf von robots.txt
+- [ ] Contact
+  - [ ] Auswahl der Root-Kategorien fixen
 - [ ] Styling
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
