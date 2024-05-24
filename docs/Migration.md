@@ -59,8 +59,10 @@
       - [ ] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
       - [ ] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
       - [ ] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
-    - [ ] RequestMiddlewares.php
+    - [x] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
+    - [ ] Übernahme Classes/KeSearchIndexer
+    - [ ] Übernahme Classes/Converter
   - [x] Anpassung SitesYaml (https://forge.typo3.org/issues/87095)
     - [x] Aufruf von sitemap.xml
     - [x] Aufruf von robots.txt
