@@ -63,13 +63,22 @@
   - [ ] Übernahme Classes/*
     - [ ] Übernahme Classes/KeSearchIndexer
     - [ ] Übernahme Classes/Converter
+  - [ ] Header
+    - [ ] Übernahme Breadcrumb
   - [ ] Hauptnavigation
     - [ ] Anpassung Sprach-Prefix xna.l10n.navigation
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [ ] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
-  - [ ] Content Elemente
-    - [ ] Überschriften Layout container wieder zur Verfügung stellen
-    - [ ] Pfleilchen in MenuPages auf SvgInline umbauen
+    - [ ] Alle Produktfamilien Link in PageseMenu
+  - [ ] Footer
+    - [ ] Einbindung Hauptadresse über ViewHelper im Footer
+    - [ ] Ausgabe Copyright
+    - [ ] Ausgabe Footer-Navigation
+    - [ ] Ausgabe Copyright
+    - [ ] Ausgabe Footer Inhalte
+  - [x] Content Elemente
+    - [x] Überschriften Layout container wieder zur Verfügung stellen
+    - [x] Pfleilchen in MenuPages auf SvgInline umbauen
   - [x] Anpassung SitesYaml (https://forge.typo3.org/issues/87095)
     - [x] Aufruf von sitemap.xml
     - [x] Aufruf von robots.txt
