@@ -8,7 +8,8 @@ $query = 'UPDATE pages SET
 	tx_foundation_disable_breadcrumb = tx_xo_no_breadcrumb,
 	tx_foundation_breadcrumb_hidden = tx_xo_breadcrumb_hidden,
 	tx_foundation_navigation_content = tx_xo_navigation_content,
-	tx_foundation_navigation_layout = tx_xo_navigation_layout';
+	tx_foundation_navigation_layout = tx_xo_navigation_layout,
+	tx_foundation_disable_sticky = tx_xo_no_sticky';
 $result = $db->query($query);
 
 // Content
