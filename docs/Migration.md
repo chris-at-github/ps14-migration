@@ -72,10 +72,9 @@
     - [ ] Alle Produktfamilien Link in PageseMenu
   - [ ] Footer
     - [x] Einbindung Hauptadresse über ViewHelper im Footer
-    - [ ] Ausgabe Copyright
-    - [ ] Ausgabe Footer-Navigation
-    - [ ] Ausgabe Copyright
-    - [ ] Ausgabe Footer Inhalte
+    - [x] Ausgabe Footer-Navigation
+    - [x] Ausgabe Copyright
+    - [x] Ausgabe Footer Inhalte
     - [x] Übersetzung der Adresse testen
     - [x] Kategorien mit Öffungszeiten mit Identifier "opening-hours-type" versehen
   - [x] Content Elemente
