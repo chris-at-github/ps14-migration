@@ -71,11 +71,13 @@
     - [ ] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
     - [ ] Alle Produktfamilien Link in PageseMenu
   - [ ] Footer
-    - [ ] Einbindung Hauptadresse über ViewHelper im Footer
+    - [x] Einbindung Hauptadresse über ViewHelper im Footer
     - [ ] Ausgabe Copyright
     - [ ] Ausgabe Footer-Navigation
     - [ ] Ausgabe Copyright
     - [ ] Ausgabe Footer Inhalte
+    - [x] Übersetzung der Adresse testen
+    - [x] Kategorien mit Öffungszeiten mit Identifier "opening-hours-type" versehen
   - [x] Content Elemente
     - [x] Überschriften Layout container wieder zur Verfügung stellen
     - [x] Pfleilchen in MenuPages auf SvgInline umbauen
