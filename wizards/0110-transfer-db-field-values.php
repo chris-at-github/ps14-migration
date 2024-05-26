@@ -53,6 +53,11 @@ $query = 'UPDATE sys_category SET
 	tx_foundation_link = tx_xo_link';
 $result = $db->query($query);
 
+$query = 'UPDATE sys_category SET 
+		tx_foundation_identifier = "opening-hours-type"
+	WHERE uid IN (195)';
+$result = $db->query($query);
+
 // Address
 $query = 'UPDATE tt_address SET 
 	tx_foundation_directors = tx_xo_directors,
