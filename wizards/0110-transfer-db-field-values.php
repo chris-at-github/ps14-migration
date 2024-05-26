@@ -65,6 +65,16 @@ $query = 'UPDATE tt_address SET
 	instagram = tx_xo_instagram';
 $result = $db->query($query);
 
+$query = 'UPDATE tt_address SET 
+		record_type = "Ps14\\\Foundation\\\Domain\\\Model\\\Address"
+	WHERE record_type = "Ps\\\Xo\\\Domain\\\Model\\\Address"';
+$result = $db->query($query);
+
+$query = 'UPDATE tt_address SET 
+		tx_foundation_identifier = "provider"
+	WHERE uid IN (14)';
+$result = $db->query($query);
+
 // Elements
 $query = 'INSERT IGNORE INTO tx_foundation_domain_model_elements (
 		uid, 
