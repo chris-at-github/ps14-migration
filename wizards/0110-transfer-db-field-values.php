@@ -116,7 +116,8 @@ $query = 'INSERT IGNORE INTO tx_foundation_domain_model_elements (
 		sys_language_uid, 
 		l10n_parent, 
 		l10n_diffsource, 
-		l10n_state
+		l10n_state,
+    tx_accordion_active                                               
   ) 
 	SELECT 
 		uid, 
@@ -153,7 +154,8 @@ $query = 'INSERT IGNORE INTO tx_foundation_domain_model_elements (
 		sys_language_uid, 
 		l10n_parent, 
 		l10n_diffsource, 
-		l10n_state
+		l10n_state,
+		tx_ce_accordion_active
 	FROM tx_xo_domain_model_elements
 ';
 $result = $db->query($query);

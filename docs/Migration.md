@@ -36,9 +36,9 @@
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-ctypes.php
 
 # Offene Punkte
-- [ ] Ps14 Hero
-  - [ ] Erstellung CSS- und JS-Prozess (ps14_theme)
-  - [ ] Anpassung CSS-Klassen anhand des Varianten-Feldes
+- [x] Ps14 Hero
+  - [x] Erstellung CSS- und JS-Prozess (ps14_theme)
+  - [x] Anpassung CSS-Klassen anhand des Varianten-Feldes
 - [ ] Datenbankfelder aus diesen Extensions übertragen
   - [x] Xo -> Foundation
   - [x] Xna -> Site
