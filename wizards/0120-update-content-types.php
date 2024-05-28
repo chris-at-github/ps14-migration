@@ -74,3 +74,11 @@ $query = 'UPDATE sys_file_reference sfr
 	WHERE tc.CType = "ps14_downloads"
 		AND sfr.fieldname = "tx_xo_file"';
 $result = $db->query($query);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Address
+$query = 'UPDATE tt_content SET 
+		list_type = "ps14foundation_addressrecord",
+    pi_flexform = REPLACE(pi_flexform, "structuredDataMainOpeningHoursCategory", "structuredDataOpeningHoursCategory")
+	WHERE list_type = "xo_addressrecord"';
+$result = $db->query($query);

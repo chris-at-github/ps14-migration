@@ -29,11 +29,13 @@
   - [ ] Update Extension List
   - [ ] tt_address installieren
   - [ ] ps14_site installieren (ps14_foundation wird mit installiert)
-  - [ ] ps14_theme installieren
+  - [ ] ps14_* installieren
 - [ ] Migrationsskripte
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0100-include-root-ts.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0110-transfer-db-field-values.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-types.php
+- [ ] Manuelle Schritte
+  - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
 - [x] Ps14 Hero
