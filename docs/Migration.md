@@ -42,20 +42,20 @@
 - [ ] Datenbankfelder aus diesen Extensions übertragen
   - [x] Xo -> Foundation
   - [x] Xna -> Site
-  - [ ] Akkordeon -> Akkordeon
+  - [x] Akkordeon -> Akkordeon
 - [ ] CeDownloads|Ps14Downloads
   - [ ] Sonderfall wkhtmltopdf Felder berücksichtigen
   - [ ] wkhtmltopdf fixen
 - [ ] XNA|Ps14Site Anpassungen
   - [x] Übernahme TCA-Einstellungen aus tt_content (auskommentiert)
   - [x] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
-  - [ ] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
+  - [x] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
   - [ ] Übernahme Configuration
     - [ ] TSConfig
       - [ ] Wird das Disabled von tx_fed_page_* noch benötigt?
       - [ ] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation
-      - [ ] Überprüfung Regeln für ps14_hero
-      - [ ] Überprüfung Regeln für tx_foundation_domain_model_elements
+      - [x] Überprüfung Regeln für ps14_hero
+      - [x] Überprüfung Regeln für tx_foundation_domain_model_elements
       - [ ] Überprüfung Regeln für ps14teaser_frontend
       - [ ] Überprüfung Regeln für entityproduct_keyfact
       - [ ] Überprüfung Regeln für powermail_pi1
@@ -73,8 +73,8 @@
     - [ ] Anpassung Sprach-Prefix xna.l10n.navigation
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [ ] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
-    - [ ] Alle Produktfamilien Link in PageseMenu
-  - [ ] Footer
+    - [ ] Alle Produktfamilien Link in PagesMenu
+  - [x] Footer
     - [x] Einbindung Hauptadresse über ViewHelper im Footer
     - [x] Ausgabe Footer-Navigation
     - [x] Ausgabe Copyright
