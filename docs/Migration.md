@@ -33,7 +33,7 @@
 - [ ] Migrationsskripte
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0100-include-root-ts.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0110-transfer-db-field-values.php
-  - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-ctypes.php
+  - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-types.php
 
 # Offene Punkte
 - [x] Ps14 Hero

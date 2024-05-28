@@ -37,7 +37,7 @@ $result = $db->query($query);
 // ---------------------------------------------------------------------------------------------------------------------
 // Marker
 $query = 'UPDATE tt_content SET 
-		CType = "ps14_marker"
+		CType = "ps14_marker",
     image = tx_xo_file
 	WHERE CType = "ce_marker"';
 $result = $db->query($query);
@@ -52,4 +52,11 @@ $query = 'UPDATE sys_file_reference sfr
 	SET sfr.fieldname = "image"
 	WHERE tc.CType = "ps14_marker"
 		AND sfr.fieldname = "tx_xo_file"';
+$result = $db->query($query);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Teaser
+$query = 'UPDATE tt_content SET 
+		list_type = "ps14teaser_frontend"
+	WHERE list_type = "teaser_frontend"';
 $result = $db->query($query);
