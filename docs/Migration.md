@@ -92,6 +92,7 @@
 - [ ] Styling
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
+  - [ ] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
