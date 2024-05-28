@@ -82,3 +82,10 @@ $query = 'UPDATE tt_content SET
     pi_flexform = REPLACE(pi_flexform, "structuredDataMainOpeningHoursCategory", "structuredDataOpeningHoursCategory")
 	WHERE list_type = "xo_addressrecord"';
 $result = $db->query($query);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Container
+$query = 'UPDATE tt_content SET 
+		CType = "ps14_container_2_column"
+	WHERE CType = "container-2-column"';
+$result = $db->query($query);
