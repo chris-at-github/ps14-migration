@@ -60,3 +60,17 @@ $query = 'UPDATE tt_content SET
 		list_type = "ps14teaser_frontend"
 	WHERE list_type = "teaser_frontend"';
 $result = $db->query($query);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Downloads
+$query = 'UPDATE tt_content SET 
+		CType = "ps14_downloads"
+	WHERE CType = "ce_downloads"';
+$result = $db->query($query);
+
+$query = 'UPDATE sys_file_reference sfr
+	JOIN tt_content tc ON sfr.uid_foreign = tc.uid
+	SET sfr.fieldname = "tx_foundation_file"
+	WHERE tc.CType = "ps14_downloads"
+		AND sfr.fieldname = "tx_xo_file"';
+$result = $db->query($query);
