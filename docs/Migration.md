@@ -39,12 +39,12 @@
 - [x] Ps14 Hero
   - [x] Erstellung CSS- und JS-Prozess (ps14_theme)
   - [x] Anpassung CSS-Klassen anhand des Varianten-Feldes
-- [ ] Datenbankfelder aus diesen Extensions übertragen
+- [x] Datenbankfelder aus diesen Extensions übertragen
   - [x] Xo -> Foundation
   - [x] Xna -> Site
   - [x] Akkordeon -> Akkordeon
 - [ ] CeDownloads|Ps14Downloads
-  - [ ] Sonderfall wkhtmltopdf Felder berücksichtigen
+  - [x] Sonderfall wkhtmltopdf Felder berücksichtigen
   - [ ] wkhtmltopdf fixen
 - [ ] XNA|Ps14Site Anpassungen
   - [x] Übernahme TCA-Einstellungen aus tt_content (auskommentiert)
@@ -56,7 +56,7 @@
       - [ ] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation
       - [x] Überprüfung Regeln für ps14_hero
       - [x] Überprüfung Regeln für tx_foundation_domain_model_elements
-      - [ ] Überprüfung Regeln für ps14teaser_frontend
+      - [x] Überprüfung Regeln für ps14teaser_frontend
       - [ ] Überprüfung Regeln für entityproduct_keyfact
       - [ ] Überprüfung Regeln für powermail_pi1
     - [ ] TypoScript
