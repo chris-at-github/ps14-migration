@@ -38,6 +38,10 @@
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
+- [ ] Contact
+  - [ ] Auswahl der Root-Kategorien fixen
+- [ ] Ps14 Teaser
+  - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
   - [x] Erstellung CSS- und JS-Prozess (ps14_theme)
   - [x] Anpassung CSS-Klassen anhand des Varianten-Feldes
@@ -89,8 +93,6 @@
   - [x] Anpassung SitesYaml (https://forge.typo3.org/issues/87095)
     - [x] Aufruf von sitemap.xml
     - [x] Aufruf von robots.txt
-- [ ] Contact
-  - [ ] Auswahl der Root-Kategorien fixen
 - [ ] Styling
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
