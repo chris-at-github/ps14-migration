@@ -64,6 +64,11 @@ $query = 'UPDATE sys_category SET
 $result = $db->query($query);
 
 $query = 'UPDATE sys_category SET 
+		tx_foundation_identifier = "contact-continents"
+	WHERE uid IN (198)';
+$result = $db->query($query);
+
+$query = 'UPDATE sys_category SET 
 		tx_foundation_identifier = "contact-product-lines"
 	WHERE uid IN (202)';
 $result = $db->query($query);
