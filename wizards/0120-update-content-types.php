@@ -83,6 +83,11 @@ $query = 'UPDATE tt_content SET
 	WHERE list_type = "xo_addressrecord"';
 $result = $db->query($query);
 
+$query = 'UPDATE tt_content SET 
+		tx_foundation_variant = "imprint"
+	WHERE uid = 68';
+$result = $db->query($query);
+
 // ---------------------------------------------------------------------------------------------------------------------
 // Container
 $query = 'UPDATE tt_content SET 

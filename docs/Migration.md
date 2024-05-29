@@ -38,8 +38,8 @@
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
-- [ ] Contact
-  - [ ] Auswahl der Root-Kategorien fixen
+- [x] Contact
+  - [x] Auswahl der Root-Kategorien fixen
 - [ ] Ps14 Teaser
   - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
