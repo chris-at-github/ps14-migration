@@ -49,7 +49,8 @@ $query = 'INSERT IGNORE INTO tx_foundation_pages_content_mm (
 $result = $db->query($query);
 
 // Categories
-$query = 'UPDATE sys_category SET 
+$query = 'UPDATE sys_category SET
+	tx_foundation_identifier = tx_xo_identifier,
 	tx_foundation_link = tx_xo_link';
 $result = $db->query($query);
 
