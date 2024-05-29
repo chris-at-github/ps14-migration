@@ -55,6 +55,8 @@
   - [ ] Formulare in Cleverreach wieder richtig aufbauen
 - [ ] Flux
   - [ ] Überprüfung der Einstellung in den Extension Settings. Eventuell kann dort einiges deaktivert werden
+- [ ] Kist Values
+  - [ ] Einbindung MicroModal in den Webpack Prozess
 - [ ] Ps14 Teaser
   - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
