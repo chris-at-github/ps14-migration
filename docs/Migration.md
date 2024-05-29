@@ -41,9 +41,14 @@
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
-- [x] Contact
+- [ ] Contact
   - [x] Auswahl der Root-Kategorien fixen
   - [ ] Auswahl Weltweit für hyJOIN definieren
+  - [ ] Einbindung tabs Komponente in den Webpack-Prozess
+- [ ] Powermail
+  - [ ] Iconfont in modules/powermail.scss wieder eingebinden
+  - [ ] Powermail-Konfiguraton bereinigen (Absender)
+  - [ ] Powermail in der neuesten Version installieren (derzeit Fehler nach dem Abschicken) -> Bugfix in Arbeit
 - [ ] Ps14 Teaser
   - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
@@ -84,13 +89,14 @@
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [ ] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
     - [ ] Alle Produktfamilien Link in PagesMenu
-  - [x] Footer
+  - [ ] Footer
     - [x] Einbindung Hauptadresse über ViewHelper im Footer
     - [x] Ausgabe Footer-Navigation
     - [x] Ausgabe Copyright
     - [x] Ausgabe Footer Inhalte
     - [x] Übersetzung der Adresse testen
     - [x] Kategorien mit Öffungszeiten mit Identifier "opening-hours-type" versehen
+    - [ ] Sticky Element Contact geht noch nicht auf korrekte Zielseite
   - [x] Content Elemente
     - [x] Überschriften Layout container wieder zur Verfügung stellen
     - [x] Pfleilchen in MenuPages auf SvgInline umbauen
