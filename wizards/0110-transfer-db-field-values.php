@@ -135,7 +135,8 @@ $query = 'INSERT IGNORE INTO tx_foundation_domain_model_elements (
 		l10n_diffsource, 
 		l10n_state,
     tx_accordion_active,
-    tx_timeline_date
+    tx_timeline_date,
+    tx_kist_values_color_scheme
   ) 
 	SELECT 
 		uid, 
@@ -174,7 +175,8 @@ $query = 'INSERT IGNORE INTO tx_foundation_domain_model_elements (
 		l10n_diffsource, 
 		l10n_state,
 		tx_ce_accordion_active,
-		tx_ce_history_date
+		tx_ce_history_date,
+		tx_ce_kist_values_color_scheme
 	FROM tx_xo_domain_model_elements
 ';
 $result = $db->query($query);

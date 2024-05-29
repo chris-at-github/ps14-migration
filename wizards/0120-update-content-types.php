@@ -106,3 +106,16 @@ $query = 'UPDATE tx_foundation_domain_model_elements SET
 		record_type = "ps14_timeline_default"      
 	WHERE record_type = "ce_history_default"';
 $result = $db->query($query);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Kist Values
+$query = 'UPDATE tt_content SET 
+		CType = "ps14_kist_values"
+	WHERE CType = "ce_kist_values"';
+$result = $db->query($query);
+
+$query = 'UPDATE tx_foundation_domain_model_elements SET 
+		record_type = "ps14_kist_values_default"      
+	WHERE record_type = "ce_kist_values_default"';
+$result = $db->query($query);
+
