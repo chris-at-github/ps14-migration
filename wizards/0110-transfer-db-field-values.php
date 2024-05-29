@@ -82,7 +82,8 @@ $query = 'UPDATE tt_address SET
 	tx_foundation_opening_hours_description = tx_xo_opening_hours_description,
 	tx_foundation_opening_hours = tx_xo_opening_hours,
 	tx_foundation_youtube = tx_xo_youtube,
-	instagram = tx_xo_instagram';
+	instagram = tx_xo_instagram,
+	tx_foundation_additional_description = tx_xo_additional_description';
 $result = $db->query($query);
 
 $query = 'UPDATE tt_address SET 
