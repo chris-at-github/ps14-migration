@@ -260,4 +260,7 @@ $query = 'INSERT IGNORE INTO tx_foundation_domain_model_openinghours (
 ';
 $result = $db->query($query);
 
-
+$query = 'UPDATE sys_file_reference SET 
+		tablenames = "tx_foundation_domain_model_elements"      
+	WHERE tablenames = "tx_xo_domain_model_elements"';
+$result = $db->query($query);

@@ -94,3 +94,15 @@ $query = 'UPDATE tt_content SET
 		CType = "ps14_container_2_column"
 	WHERE CType = "container-2-column"';
 $result = $db->query($query);
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Timeline
+$query = 'UPDATE tt_content SET 
+		CType = "ps14_timeline"
+	WHERE CType = "ce_history"';
+$result = $db->query($query);
+
+$query = 'UPDATE tx_foundation_domain_model_elements SET 
+		record_type = "ps14_timeline_default"      
+	WHERE record_type = "ce_history_default"';
+$result = $db->query($query);

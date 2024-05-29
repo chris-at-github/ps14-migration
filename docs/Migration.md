@@ -79,7 +79,7 @@
       - [x] Überprüfung Regeln für tx_foundation_domain_model_elements
       - [x] Überprüfung Regeln für ps14teaser_frontend
       - [ ] Überprüfung Regeln für entityproduct_keyfact
-      - [ ] Überprüfung Regeln für powermail_pi1
+      - [x] Überprüfung Regeln für powermail_pi1
     - [ ] TypoScript
       - [ ] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
       - [ ] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
