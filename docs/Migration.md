@@ -34,12 +34,16 @@
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0100-include-root-ts.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0110-transfer-db-field-values.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-types.php
+- [ ] Powermail
+  - [ ] Installieren
+  - [ ] Migration Wizard durchführen
 - [ ] Manuelle Schritte
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
 - [x] Contact
   - [x] Auswahl der Root-Kategorien fixen
+  - [ ] Auswahl Weltweit für hyJOIN definieren
 - [ ] Ps14 Teaser
   - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
@@ -105,7 +109,7 @@
 
 # Offene Extensions
 - [ ] Chart -> wird in EnityProduct integriert
-- [ ] Contact -> wird KistContact
+- [x] Contact -> wird KistContact
 - [ ] Entity
 - [ ] EntityProduct
 - [ ] CleverReach
