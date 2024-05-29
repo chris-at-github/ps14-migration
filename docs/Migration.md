@@ -49,6 +49,10 @@
   - [ ] Iconfont in modules/powermail.scss wieder eingebinden
   - [ ] Powermail-Konfiguraton bereinigen (Absender)
   - [ ] Powermail in der neuesten Version installieren (derzeit Fehler nach dem Abschicken) -> Bugfix in Arbeit
+- [ ] Cleverreach
+  - [ ] Anmeldung auf https://staging.kist-escherich.com/ testen
+  - [ ] Überprüfen ob Extension geupdated wurde -> PageTs Anpassung wieder entfernen
+  - [ ] Formulare in Cleverreach wieder richtig aufbauen
 - [ ] Ps14 Teaser
   - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
@@ -119,7 +123,7 @@
 - [ ] Entity
 - [ ] EntityProduct
 - [ ] CleverReach
-- [ ] Powermail
+- [x] Powermail
 - [x] Container
 - [x] ContainerColumns
 - [ ] Flux
