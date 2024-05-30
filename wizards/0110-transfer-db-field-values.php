@@ -268,3 +268,14 @@ $query = 'UPDATE sys_file_reference SET
 		tablenames = "tx_foundation_domain_model_elements"      
 	WHERE tablenames = "tx_xo_domain_model_elements"';
 $result = $db->query($query);
+
+// News
+$query = 'UPDATE tx_news_domain_model_news SET 
+    tx_kist_news_no_detail = tx_ps14_no_detail,
+    tx_kist_news_location = tx_ps14_location,
+    tx_kist_news_event_startdate = tx_ps14_event_startdate,
+    tx_kist_news_event_enddate = tx_ps14_event_enddate,
+    tx_kist_news_event_starttime = tx_ps14_event_starttime,
+    tx_kist_news_event_endtime = tx_ps14_event_endtime,
+    tx_kist_news_layout = tx_ps14_layout';
+$result = $db->query($query);
