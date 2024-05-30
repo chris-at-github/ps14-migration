@@ -79,7 +79,7 @@
   - [ ] Übernahme Configuration
     - [ ] TSConfig
       - [ ] Wird das Disabled von tx_fed_page_* noch benötigt?
-      - [ ] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation
+      - [x] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation
       - [x] Überprüfung Regeln für ps14_hero
       - [x] Überprüfung Regeln für tx_foundation_domain_model_elements
       - [x] Überprüfung Regeln für ps14teaser_frontend
