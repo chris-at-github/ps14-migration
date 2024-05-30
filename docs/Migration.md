@@ -90,8 +90,8 @@
   - [ ] Übernahme Classes/*
     - [ ] Übernahme Classes/KeSearchIndexer
     - [ ] Übernahme Classes/Converter
-  - [ ] Header
-    - [ ] Übernahme Breadcrumb
+  - [x] Header
+    - [x] Übernahme Breadcrumb
   - [ ] Hauptnavigation
     - [ ] Anpassung Sprach-Prefix xna.l10n.navigation
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
