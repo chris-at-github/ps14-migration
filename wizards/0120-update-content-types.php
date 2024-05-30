@@ -119,3 +119,10 @@ $query = 'UPDATE tx_foundation_domain_model_elements SET
 	WHERE record_type = "ce_kist_values_default"';
 $result = $db->query($query);
 
+// ---------------------------------------------------------------------------------------------------------------------
+// News
+$query = 'UPDATE tt_content SET 
+		CType = "news_pi1",
+		list_type = ""
+	WHERE list_type = "news_pi1"';
+$result = $db->query($query);
