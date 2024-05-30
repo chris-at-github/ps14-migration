@@ -40,10 +40,17 @@
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0100-include-root-ts.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0110-transfer-db-field-values.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-types.php
+  - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0130-remove-en-categories-from-de-records.php
 - [ ] Manuelle Schritte
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
+- [ ] News
+  - [x] Ausgabe von englischen Badges in deutscher Seite
+  - [ ] Detailseite
+  - [ ] SeoSitemap.xml
+  - [ ] Breadcrumb Detailseite
+  - [ ] Testen Event NoDetail
 - [ ] Contact
   - [x] Auswahl der Root-Kategorien fixen
   - [ ] Auswahl Weltweit für hyJOIN definieren
