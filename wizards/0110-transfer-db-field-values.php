@@ -32,6 +32,11 @@ $query = 'UPDATE tt_content SET
 	WHERE tx_foundation_variant = 0';
 $result = $db->query($query);
 
+$query = 'UPDATE tt_content SET 
+		header_layout = "100"
+	WHERE uid IN (384, 388)';
+$result = $db->query($query);
+
 // Pages Content MM
 $query = 'INSERT IGNORE INTO tx_foundation_pages_content_mm (
 		uid_local,
