@@ -109,14 +109,14 @@
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [x] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
     - [x] Alle Produktfamilien Link in PagesMenu
-  - [ ] Footer
+  - [x] Footer
     - [x] Einbindung Hauptadresse über ViewHelper im Footer
     - [x] Ausgabe Footer-Navigation
     - [x] Ausgabe Copyright
     - [x] Ausgabe Footer Inhalte
     - [x] Übersetzung der Adresse testen
     - [x] Kategorien mit Öffungszeiten mit Identifier "opening-hours-type" versehen
-    - [ ] Sticky Element Contact geht noch nicht auf korrekte Zielseite
+    - [x] Sticky Element Contact geht noch nicht auf korrekte Zielseite
   - [x] Content Elemente
     - [x] Überschriften Layout container wieder zur Verfügung stellen
     - [x] Pfleilchen in MenuPages auf SvgInline umbauen
@@ -127,8 +127,8 @@
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
   - [ ] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
-- [ ] Allgemeine Anpassungen
-  - [ ] Seiten aus Modules aus dem Index und aus der Suche entfernen
+- [x] Allgemeine Anpassungen
+  - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
@@ -148,7 +148,7 @@
 - [ ] Html2Pdf
 - [ ] KeSearch
 - [x] Masi
-- [ ] News
-- [ ] NewsExtended -> KistNews
+- [x] News
+- [x] NewsExtended -> KistNews
 - [ ] Scriptmerger
 - [x] Teaser
