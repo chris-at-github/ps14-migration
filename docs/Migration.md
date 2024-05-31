@@ -48,9 +48,9 @@
 - [ ] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
-  - [ ] SeoSitemap.xml
+  - [x] SeoSitemap.xml
   - [x] Breadcrumb Detailseite
-  - [ ] Testen Event NoDetail
+  - [x] Testen Event NoDetail
   - [ ] Entfernung "Weitere News" und Erstellung der Verknüpfung über Related News in der News selbst
   - [ ] Aktivierung News Selected in der Navigation
 - [ ] Contact
@@ -127,6 +127,8 @@
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
   - [ ] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
+- [ ] Allgemeine Anpassungen
+  - [ ] Seiten aus Modules aus dem Index und aus der Suche entfernen
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
