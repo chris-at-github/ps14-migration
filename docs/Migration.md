@@ -108,7 +108,7 @@
     - [ ] Anpassung Sprach-Prefix xna.l10n.navigation
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [x] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
-    - [ ] Alle Produktfamilien Link in PagesMenu
+    - [x] Alle Produktfamilien Link in PagesMenu
   - [ ] Footer
     - [x] Einbindung Hauptadresse über ViewHelper im Footer
     - [x] Ausgabe Footer-Navigation

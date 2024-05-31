@@ -203,6 +203,65 @@ if($result->num_rows > 0) {
 	}
 }
 
+// Readmore
+$query = 'INSERT INTO tx_foundation_domain_model_readmore (
+    pid,
+    sorting,
+    tstamp,
+    crdate,
+    cruser_id,
+    deleted,
+    hidden,
+    starttime,
+    endtime,
+    t3ver_oid,
+    t3ver_wsid,
+    t3ver_state,
+    t3ver_stage,
+    t3ver_count,
+    t3ver_tstamp,
+    t3ver_move_id,
+    sys_language_uid,
+    l10n_parent,
+    l10n_diffsource,
+    l10n_state,
+    title,
+    link,
+    foreign_uid,
+    foreign_field,
+    t3ver_id,
+    t3ver_label
+)
+SELECT
+    pid,
+    sorting,
+    tstamp,
+    crdate,
+    cruser_id,
+    deleted,
+    hidden,
+    starttime,
+    endtime,
+    t3ver_oid,
+    t3ver_wsid,
+    t3ver_state,
+    t3ver_stage,
+    t3ver_count,
+    t3ver_tstamp,
+    t3ver_move_id,
+    sys_language_uid,
+    l10n_parent,
+    l10n_diffsource,
+    l10n_state,
+    title,
+    link,
+    foreign_uid,
+    foreign_field,
+    t3ver_id,
+    t3ver_label
+	FROM tx_xo_domain_model_readmore';
+$result = $db->query($query);
+
 // Opening Hours
 $query = 'INSERT IGNORE INTO tx_foundation_domain_model_openinghours (
 		uid, 
