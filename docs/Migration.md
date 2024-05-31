@@ -47,10 +47,12 @@
 # Offene Punkte
 - [ ] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
-  - [ ] Detailseite
+  - [x] Detailseite
   - [ ] SeoSitemap.xml
-  - [ ] Breadcrumb Detailseite
+  - [x] Breadcrumb Detailseite
   - [ ] Testen Event NoDetail
+  - [ ] Entfernung "Weitere News" und Erstellung der Verknüpfung über Related News in der News selbst
+  - [ ] Aktivierung News Selected in der Navigation
 - [ ] Contact
   - [x] Auswahl der Root-Kategorien fixen
   - [ ] Auswahl Weltweit für hyJOIN definieren
