@@ -2,6 +2,7 @@
 
 $db = new mysqli('db', 'db', 'db', 'db');
 
+// ---------------------------------------------------------------------------------------------------------------------
 // Pages
 $query = 'UPDATE pages SET 
 	tx_foundation_navigation_not_linked = tx_xo_no_link,
@@ -12,6 +13,8 @@ $query = 'UPDATE pages SET
 	tx_foundation_disable_sticky = tx_xo_no_sticky';
 $result = $db->query($query);
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // Content
 $query = 'UPDATE tt_content SET 
 	tx_foundation_variant = tx_xo_variant,
@@ -53,6 +56,8 @@ $query = 'INSERT IGNORE INTO tx_foundation_pages_content_mm (
 ';
 $result = $db->query($query);
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // Categories
 $query = 'UPDATE sys_category SET
 	tx_foundation_identifier = tx_xo_identifier,
@@ -79,6 +84,8 @@ $query = 'UPDATE sys_category SET
 	WHERE uid IN (202)';
 $result = $db->query($query);
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // Address
 $query = 'UPDATE tt_address SET 
 	tx_foundation_directors = tx_xo_directors,
@@ -102,6 +109,8 @@ $query = 'UPDATE tt_address SET
 	WHERE uid IN (14)';
 $result = $db->query($query);
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // Elements
 $query = 'INSERT IGNORE INTO tx_foundation_domain_model_elements (
 		uid, 
@@ -203,6 +212,8 @@ if($result->num_rows > 0) {
 	}
 }
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // Readmore
 $query = 'INSERT INTO tx_foundation_domain_model_readmore (
     pid,
@@ -262,6 +273,8 @@ SELECT
 	FROM tx_xo_domain_model_readmore';
 $result = $db->query($query);
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // Opening Hours
 $query = 'INSERT IGNORE INTO tx_foundation_domain_model_openinghours (
 		uid, 
@@ -333,6 +346,8 @@ $query = 'UPDATE sys_file_reference SET
 	WHERE tablenames = "tx_xo_domain_model_elements"';
 $result = $db->query($query);
 
+
+// ---------------------------------------------------------------------------------------------------------------------
 // News
 $query = 'UPDATE tx_news_domain_model_news SET 
     tx_kist_news_no_detail = tx_ps14_no_detail,
@@ -342,4 +357,15 @@ $query = 'UPDATE tx_news_domain_model_news SET
     tx_kist_news_event_starttime = tx_ps14_event_starttime,
     tx_kist_news_event_endtime = tx_ps14_event_endtime,
     tx_kist_news_layout = tx_ps14_layout';
+$result = $db->query($query);
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+// KeSearch
+$query = 'UPDATE tx_kesearch_indexerconfig SET
+	contenttypes = "text, header, ps14_accordion, ps14_downloads, ps14_hero, ps14_marker",
+	content_fields = "bodytext, subheader",
+	file_reference_fields = "tx_foundation_file,media",
+	additional_tables = ""
+WHERE uid = 1';
 $result = $db->query($query);
