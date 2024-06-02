@@ -146,7 +146,7 @@
 - [x] ContainerColumns
 - [x] Flux
 - [ ] Html2Pdf
-- [ ] KeSearch
+- [x] KeSearch
 - [x] Masi
 - [x] News
 - [x] NewsExtended -> KistNews
