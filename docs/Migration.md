@@ -45,6 +45,8 @@
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
+- [ ] EntityProduct
+  - [ ] Erstellung Chart-Extension trage sie als Abhängigkeit ein
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
