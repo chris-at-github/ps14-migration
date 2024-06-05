@@ -89,6 +89,12 @@ $query = 'UPDATE sys_category SET
 	WHERE uid IN (7)';
 $result = $db->query($query);
 
+$query = 'UPDATE sys_category SET 
+		tx_foundation_identifier = "entity-product-filter",
+    sorting = 1           
+	WHERE uid IN (16)';
+$result = $db->query($query);
+
 
 // ---------------------------------------------------------------------------------------------------------------------
 // Address
