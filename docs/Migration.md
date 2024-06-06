@@ -48,16 +48,17 @@
 - [ ] EntityProduct
   - [ ] Erstellung Chart-Extension trage sie als Abhängigkeit ein
   - [ ] Teaser Extension als Abhängigkeit hinterlegen
-  - [ ] Icon zur Vergrößerung (Technische Zeichnungen)
-  - [ ] Picture-Tag für Technologie Teaser
-  - [ ] Fette Unterüberschrift
+  - [x] Icon zur Vergrößerung (Technische Zeichnungen)
+  - [x] Picture-Tag für Technologie Teaser
+  - [x] Fette Unterüberschrift
   - [ ] Filterung auf der Übersichtseite
   - [ ] Paginierung
   - [ ] LinkHandler 
   - [ ] Canonical Event
   - [ ] Hreflang Event
   - [ ] Individuelles Produkt Teaser
-  - [ ] Such Indexer
+  - [ ] KeSearch Indexer
+  - [x] Paginierung für die Slider-Dots
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
