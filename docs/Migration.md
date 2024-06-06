@@ -47,6 +47,7 @@
 # Offene Punkte
 - [ ] EntityProduct
   - [ ] Erstellung Chart-Extension trage sie als Abhängigkeit ein
+  - [ ] Teaser Extension als Abhängigkeit hinterlegen
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
@@ -58,7 +59,7 @@
 - [ ] Contact
   - [x] Auswahl der Root-Kategorien fixen
   - [ ] Auswahl Weltweit für hyJOIN definieren
-  - [ ] Einbindung tabs Komponente in den Webpack-Prozess
+  - [x] Einbindung tabs Komponente in den Webpack-Prozess
 - [ ] Powermail
   - [ ] Iconfont in modules/powermail.scss wieder eingebinden
   - [ ] Powermail-Konfiguraton bereinigen (Absender)
@@ -69,8 +70,8 @@
   - [ ] Formulare in Cleverreach wieder richtig aufbauen
 - [ ] Flux
   - [ ] Überprüfung der Einstellung in den Extension Settings. Eventuell kann dort einiges deaktivert werden
-- [ ] Kist Values
-  - [ ] Einbindung MicroModal in den Webpack Prozess
+- [x] Kist Values
+  - [x] Einbindung MicroModal in den Webpack Prozess
 - [ ] Ps14 Teaser
   - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
@@ -102,7 +103,7 @@
       - [ ] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
     - [x] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
-    - [ ] Übernahme Classes/KeSearchIndexer
+    - [x] Übernahme Classes/KeSearchIndexer
     - [ ] Übernahme Classes/Converter
   - [x] Header
     - [x] Übernahme Breadcrumb
@@ -131,6 +132,7 @@
   - [ ] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
+  - [ ] Aktualisierung JS Bibliotheken über die package.json
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
