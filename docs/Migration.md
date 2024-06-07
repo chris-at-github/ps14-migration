@@ -47,7 +47,7 @@
 # Offene Punkte
 - [ ] EntityProduct
   - [ ] Erstellung Chart-Extension trage sie als Abhängigkeit ein
-  - [ ] Teaser Extension als Abhängigkeit hinterlegen
+  - [x] Teaser Extension als Abhängigkeit hinterlegen
   - [x] Icon zur Vergrößerung (Technische Zeichnungen)
   - [x] Picture-Tag für Technologie Teaser
   - [x] Fette Unterüberschrift
@@ -59,6 +59,8 @@
   - [ ] Individuelles Produkt Teaser
   - [ ] KeSearch Indexer
   - [x] Paginierung für die Slider-Dots
+  - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
+  - [ ] Layout (Zubehör, Reinigungsmaschinen)
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
@@ -141,6 +143,7 @@
   - [ ] CTA Button im Editor
   - [ ] Abstand Überschrift im Keyfacts Modul
   - [ ] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
+  - [ ] Entfernung figure=table 
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
