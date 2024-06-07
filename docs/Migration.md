@@ -61,6 +61,7 @@
   - [x] Paginierung für die Slider-Dots
   - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
   - [ ] Layout (Zubehör, Reinigungsmaschinen)
+  - [ ] Generierung sitemap.xml für Produkte
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
@@ -144,6 +145,7 @@
   - [ ] Abstand Überschrift im Keyfacts Modul
   - [ ] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
   - [ ] Entfernung figure=table 
+  - [ ] Eigene Komponente für Media und Anpassung des Videos https://kist-escherich-com-v12.ddev.site/de/produkte/reinigung/reinigungsmaschinen/traymaster
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
