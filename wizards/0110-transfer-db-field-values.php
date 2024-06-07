@@ -13,6 +13,10 @@ $query = 'UPDATE pages SET
 	tx_foundation_disable_sticky = tx_xo_no_sticky';
 $result = $db->query($query);
 
+$query = 'UPDATE pages SET 
+		tx_foundation_identifier = "individual-product"
+	WHERE uid IN (183)';
+$result = $db->query($query);
 
 // ---------------------------------------------------------------------------------------------------------------------
 // Content

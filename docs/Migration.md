@@ -56,7 +56,7 @@
   - [ ] LinkHandler 
   - [ ] Canonical Event
   - [ ] Hreflang Event
-  - [ ] Individuelles Produkt Teaser
+  - [x] Individuelles Produkt Teaser
   - [ ] KeSearch Indexer
   - [x] Paginierung für die Slider-Dots
   - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
