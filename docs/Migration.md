@@ -162,7 +162,7 @@
 - [ ] Textpic
 - [ ] Chart -> wird in EnityProduct integriert
 - [x] Contact -> wird KistContact
-- [ ] Entity
+- [x] Entity
 - [ ] EntityProduct
 - [ ] CleverReach
 - [x] Powermail
