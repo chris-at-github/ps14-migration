@@ -52,7 +52,7 @@
   - [x] Picture-Tag für Technologie Teaser
   - [x] Fette Unterüberschrift
   - [x] Filterung auf der Übersichtseite
-  - [ ] LinkHandler 
+  - [x] LinkHandler 
   - [ ] Canonical Event
   - [ ] Hreflang Event
   - [x] Individuelles Produkt Teaser
