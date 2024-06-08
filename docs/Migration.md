@@ -60,7 +60,7 @@
   - [x] Paginierung für die Slider-Dots
   - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
   - [x] Layout (Zubehör, Reinigungsmaschinen)
-  - [ ] Generierung sitemap.xml für Produkte
+  - [x] Generierung sitemap.xml für Produkte
   - [x] Teaser Action
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
