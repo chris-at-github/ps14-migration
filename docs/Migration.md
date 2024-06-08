@@ -53,15 +53,15 @@
   - [x] Fette Unterüberschrift
   - [x] Filterung auf der Übersichtseite
   - [x] LinkHandler 
-  - [ ] Canonical Event
-  - [ ] Hreflang Event
+  - [x] Canonical Event
+  - [x] Hreflang Event
   - [x] Individuelles Produkt Teaser
   - [ ] KeSearch Indexer
   - [x] Paginierung für die Slider-Dots
   - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
   - [x] Layout (Zubehör, Reinigungsmaschinen)
   - [ ] Generierung sitemap.xml für Produkte
-  - [ ] Teaser Action
+  - [x] Teaser Action
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
@@ -148,6 +148,7 @@
   - [ ] Eigene Komponente für Media und Anpassung des Videos https://kist-escherich-com-v12.ddev.site/de/produkte/reinigung/reinigungsmaschinen/traymaster
   - [ ] Abstand zu den Anwendungen unter Zubehör https://kist-escherich-com-v12.ddev.site/de/produkte/zubehoer/zubehoer-absaugschlaeuche
   - [ ] Wiederherstellung der Default Radio-Inputs z.B. https://staging.kist-escherich.com/de/produkte/reinigung/reinigung-2d-bauteile
+  - [ ] Hover des Readmore-Buttons
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
@@ -158,6 +159,7 @@
 - [ ] Übernahme Basis-Regel für settings.picture in ps14_site/Configuration/TypoScript/Navigation/Default.setup.typoscript
 
 # Offene Extensions
+- [ ] Textpic
 - [ ] Chart -> wird in EnityProduct integriert
 - [x] Contact -> wird KistContact
 - [ ] Entity
