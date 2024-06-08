@@ -51,8 +51,7 @@
   - [x] Icon zur Vergrößerung (Technische Zeichnungen)
   - [x] Picture-Tag für Technologie Teaser
   - [x] Fette Unterüberschrift
-  - [ ] Filterung auf der Übersichtseite
-  - [ ] Paginierung
+  - [x] Filterung auf der Übersichtseite
   - [ ] LinkHandler 
   - [ ] Canonical Event
   - [ ] Hreflang Event
@@ -62,6 +61,7 @@
   - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
   - [x] Layout (Zubehör, Reinigungsmaschinen)
   - [ ] Generierung sitemap.xml für Produkte
+  - [ ] Teaser Action
 - [x] News
   - [x] Ausgabe von englischen Badges in deutscher Seite
   - [x] Detailseite
@@ -147,6 +147,7 @@
   - [ ] Entfernung figure=table 
   - [ ] Eigene Komponente für Media und Anpassung des Videos https://kist-escherich-com-v12.ddev.site/de/produkte/reinigung/reinigungsmaschinen/traymaster
   - [ ] Abstand zu den Anwendungen unter Zubehör https://kist-escherich-com-v12.ddev.site/de/produkte/zubehoer/zubehoer-absaugschlaeuche
+  - [ ] Wiederherstellung der Default Radio-Inputs z.B. https://staging.kist-escherich.com/de/produkte/reinigung/reinigung-2d-bauteile
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
