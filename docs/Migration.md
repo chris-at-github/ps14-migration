@@ -109,7 +109,7 @@
       - [x] Überprüfung Regeln für ps14_hero
       - [x] Überprüfung Regeln für tx_foundation_domain_model_elements
       - [x] Überprüfung Regeln für ps14teaser_frontend
-      - [ ] Überprüfung Regeln für entityproduct_keyfact
+      - [x] Überprüfung Regeln für entityproduct_keyfact
       - [x] Überprüfung Regeln für powermail_pi1
     - [ ] TypoScript
       - [ ] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
