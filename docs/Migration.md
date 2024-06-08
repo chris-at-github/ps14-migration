@@ -56,7 +56,7 @@
   - [x] Canonical Event
   - [x] Hreflang Event
   - [x] Individuelles Produkt Teaser
-  - [ ] KeSearch Indexer
+  - [x] KeSearch Indexer
   - [x] Paginierung für die Slider-Dots
   - [x] Fix für https://kist-escherich-com-v12.ddev.site/de/produkte/elektrostatik/ionisationssysteme/static-jet
   - [x] Layout (Zubehör, Reinigungsmaschinen)
