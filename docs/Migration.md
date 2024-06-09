@@ -103,8 +103,8 @@
   - [x] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
   - [x] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
   - [ ] Übernahme Configuration
-    - [ ] TSConfig
-      - [ ] Wird das Disabled von tx_fed_page_* noch benötigt?
+    - [x] TSConfig
+      - [x] Wird das Disabled von tx_fed_page_* noch benötigt?
       - [x] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation
       - [x] Überprüfung Regeln für ps14_hero
       - [x] Überprüfung Regeln für tx_foundation_domain_model_elements
