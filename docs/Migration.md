@@ -45,8 +45,8 @@
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
-- [ ] EntityProduct
-  - [ ] Erstellung Chart-Extension trage sie als Abhängigkeit ein
+- [x] EntityProduct
+  - [x] Erstellung Chart-Extension trage sie als Abhängigkeit ein
   - [x] Teaser Extension als Abhängigkeit hinterlegen
   - [x] Icon zur Vergrößerung (Technische Zeichnungen)
   - [x] Picture-Tag für Technologie Teaser
@@ -160,10 +160,10 @@
 
 # Offene Extensions
 - [ ] Textpic
-- [ ] Chart -> wird in EnityProduct integriert
+- [x] Chart -> wird in EnityProduct integriert
 - [x] Contact -> wird KistContact
 - [x] Entity
-- [ ] EntityProduct
+- [x] EntityProduct
 - [ ] CleverReach
 - [x] Powermail
 - [x] Container
