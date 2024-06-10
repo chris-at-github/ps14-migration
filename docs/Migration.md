@@ -82,8 +82,8 @@
   - [ ] Anmeldung auf https://staging.kist-escherich.com/ testen
   - [ ] Überprüfen ob Extension geupdated wurde -> PageTs Anpassung wieder entfernen
   - [ ] Formulare in Cleverreach wieder richtig aufbauen
-- [ ] Flux
-  - [ ] Überprüfung der Einstellung in den Extension Settings. Eventuell kann dort einiges deaktivert werden
+- [x] Flux
+  - [x] Überprüfung der Einstellung in den Extension Settings. Eventuell kann dort einiges deaktivert werden
 - [x] Kist Values
   - [x] Einbindung MicroModal in den Webpack Prozess
 - [ ] Ps14 Teaser
@@ -91,6 +91,7 @@
 - [x] Ps14 Hero
   - [x] Erstellung CSS- und JS-Prozess (ps14_theme)
   - [x] Anpassung CSS-Klassen anhand des Varianten-Feldes
+  - [ ] Auslesen des Layouts aus den Flexform-Daten und Setzen der Variante
 - [x] Datenbankfelder aus diesen Extensions übertragen
   - [x] Xo -> Foundation
   - [x] Xna -> Site
@@ -112,7 +113,7 @@
       - [x] Überprüfung Regeln für entityproduct_keyfact
       - [x] Überprüfung Regeln für powermail_pi1
     - [ ] TypoScript
-      - [ ] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
+      - [x] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
       - [ ] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
       - [ ] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
     - [x] RequestMiddlewares.php
@@ -159,7 +160,7 @@
 - [ ] Übernahme Basis-Regel für settings.picture in ps14_site/Configuration/TypoScript/Navigation/Default.setup.typoscript
 
 # Offene Extensions
-- [ ] Textpic
+- [x] Textpic
 - [x] Chart -> wird in EnityProduct integriert
 - [x] Contact -> wird KistContact
 - [x] Entity
