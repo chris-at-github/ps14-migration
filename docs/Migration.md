@@ -86,8 +86,8 @@
   - [x] Überprüfung der Einstellung in den Extension Settings. Eventuell kann dort einiges deaktivert werden
 - [x] Kist Values
   - [x] Einbindung MicroModal in den Webpack Prozess
-- [ ] Ps14 Teaser
-  - [ ] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
+- [x] Ps14 Teaser
+  - [x] Anzeige Badges z.B. https://kist-escherich-com-v12.ddev.site/de/branchenloesungen/automotive-funktionsbauteile
 - [x] Ps14 Hero
   - [x] Erstellung CSS- und JS-Prozess (ps14_theme)
   - [x] Anpassung CSS-Klassen anhand des Varianten-Feldes
@@ -112,9 +112,9 @@
       - [x] Überprüfung Regeln für ps14teaser_frontend
       - [x] Überprüfung Regeln für entityproduct_keyfact
       - [x] Überprüfung Regeln für powermail_pi1
-    - [ ] TypoScript
+    - [x] TypoScript
       - [x] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
-      - [ ] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
+      - [x] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
       - [x] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
     - [x] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
@@ -158,6 +158,8 @@
 - [ ] Konfiguration RTE *.yaml-Dateien 
 - [ ] Entfernung von Configuration/PageTS/*.tsconfig Dateien und Anlegen von leeren Dateien laut Namensdefintion
 - [ ] Übernahme Basis-Regel für settings.picture in ps14_site/Configuration/TypoScript/Navigation/Default.setup.typoscript
+- [ ] Verschieben des Source/Svg Ordner nach Embed
+- [ ] Verschieben der Module: Images, Bild-Text, Media-Text, Menü in eigene Extensions
 
 # Offene Extensions
 - [x] Textpic
