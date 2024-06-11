@@ -115,7 +115,7 @@
     - [ ] TypoScript
       - [x] Manueller Import ps14_site/Configuration/TypoScript/Site.constants.typoscript noch nötig?
       - [ ] Umbenennung Inline-Dateien in site-inline(css|js) nach Überarbeitung des Rendering Processes
-      - [ ] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
+      - [x] Übernahme aller TypoScript/Extensions/*.typoscript Dateien
     - [x] RequestMiddlewares.php
   - [ ] Übernahme Classes/*
     - [x] Übernahme Classes/KeSearchIndexer
