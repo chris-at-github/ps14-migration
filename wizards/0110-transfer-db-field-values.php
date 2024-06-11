@@ -44,6 +44,12 @@ $query = 'UPDATE tt_content SET
 	WHERE uid IN (384, 388)';
 $result = $db->query($query);
 
+$query = 'UPDATE tt_content SET 
+		tx_foundation_variant = "16-9"
+	WHERE CType = "ps14_hero"
+		AND pi_flexform LIKE "%<value index=\\\"vDEF\\\">16-9</value>%"';
+$result = $db->query($query);
+
 // Pages Content MM
 $query = 'INSERT IGNORE INTO tx_foundation_pages_content_mm (
 		uid_local,

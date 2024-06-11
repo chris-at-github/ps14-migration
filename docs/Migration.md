@@ -91,7 +91,7 @@
 - [x] Ps14 Hero
   - [x] Erstellung CSS- und JS-Prozess (ps14_theme)
   - [x] Anpassung CSS-Klassen anhand des Varianten-Feldes
-  - [ ] Auslesen des Layouts aus den Flexform-Daten und Setzen der Variante
+  - [x] Auslesen des Layouts aus den Flexform-Daten und Setzen der Variante
 - [x] Datenbankfelder aus diesen Extensions übertragen
   - [x] Xo -> Foundation
   - [x] Xna -> Site
