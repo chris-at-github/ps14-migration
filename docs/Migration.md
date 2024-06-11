@@ -122,9 +122,9 @@
     - [ ] Übernahme Classes/Converter
   - [x] Header
     - [x] Übernahme Breadcrumb
-  - [ ] Hauptnavigation
+  - [x] Hauptnavigation
     - [x] Anpassung Sprach-Prefix xna.l10n.navigation
-    - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
+    - [x] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [x] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
     - [x] Alle Produktfamilien Link in PagesMenu
   - [x] Footer
