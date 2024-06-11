@@ -70,9 +70,9 @@
   - [x] Testen Event NoDetail
   - [x] Entfernung "Weitere News" und Erstellung der Verknüpfung über Related News in der News selbst
   - [x] Aktivierung News Selected in der Navigation
-- [ ] Contact
+- [x] Contact
   - [x] Auswahl der Root-Kategorien fixen
-  - [ ] Auswahl Weltweit für hyJOIN definieren
+  - [x] Auswahl Weltweit für hyJOIN definieren
   - [x] Einbindung tabs Komponente in den Webpack-Prozess
 - [ ] Powermail
   - [ ] Iconfont in modules/powermail.scss wieder eingebinden
