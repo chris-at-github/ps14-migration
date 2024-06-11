@@ -75,7 +75,7 @@
   - [x] Auswahl Weltweit für hyJOIN definieren
   - [x] Einbindung tabs Komponente in den Webpack-Prozess
 - [ ] Powermail
-  - [ ] Iconfont in modules/powermail.scss wieder eingebinden
+  - [x] Iconfont in modules/powermail.scss wieder eingebinden
   - [ ] Powermail-Konfiguraton bereinigen (Absender)
   - [ ] Powermail in der neuesten Version installieren (derzeit Fehler nach dem Abschicken) -> Bugfix in Arbeit
 - [ ] Cleverreach
@@ -123,7 +123,7 @@
   - [x] Header
     - [x] Übernahme Breadcrumb
   - [ ] Hauptnavigation
-    - [ ] Anpassung Sprach-Prefix xna.l10n.navigation
+    - [x] Anpassung Sprach-Prefix xna.l10n.navigation
     - [ ] Umbau JS wg. Verwendung der SVG Sprite in der Hauptnavigation
     - [x] Aktivierung der deaktivierten Inhalte nach Migration von News in /KIST + ESCHERICH/Referenzierte Inhalte/Navigation [186]
     - [x] Alle Produktfamilien Link in PagesMenu
