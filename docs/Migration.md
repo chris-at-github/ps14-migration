@@ -145,7 +145,7 @@
   - [x] CTA Button im Editor
   - [x] Abstand Überschrift im Keyfacts Modul (HTML Aufbau überprüfen)
   - [x] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
-  - [ ] Entfernung figure=table 
+  - [x] Entfernung figure=table 
   - [ ] Eigene Komponente für Media und Anpassung des Videos https://kist-escherich-com-v12.ddev.site/de/produkte/reinigung/reinigungsmaschinen/traymaster
   - [ ] Abstand zu den Anwendungen unter Zubehör https://kist-escherich-com-v12.ddev.site/de/produkte/zubehoer/zubehoer-absaugschlaeuche
   - [ ] Wiederherstellung der Default Radio-Inputs z.B. https://staging.kist-escherich.com/de/produkte/reinigung/reinigung-2d-bauteile
@@ -153,6 +153,7 @@
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
+  - [ ] Aktivierung Tabellen-Konfiguration
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
