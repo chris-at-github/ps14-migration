@@ -149,7 +149,7 @@
   - [ ] Eigene Komponente für Media und Anpassung des Videos https://kist-escherich-com-v12.ddev.site/de/produkte/reinigung/reinigungsmaschinen/traymaster
   - [ ] Abstand zu den Anwendungen unter Zubehör https://kist-escherich-com-v12.ddev.site/de/produkte/zubehoer/zubehoer-absaugschlaeuche
   - [x] Wiederherstellung der Default Radio-Inputs z.B. https://staging.kist-escherich.com/de/produkte/reinigung/reinigung-2d-bauteile
-  - [ ] Hover des Readmore-Buttons (auf grauen Flächen)
+  - [x] Hover des Readmore-Buttons (auf grauen Flächen)
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
