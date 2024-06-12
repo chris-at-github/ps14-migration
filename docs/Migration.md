@@ -143,7 +143,7 @@
     - [x] Aufruf von robots.txt
 - [ ] Styling
   - [x] CTA Button im Editor
-  - [ ] Abstand Überschrift im Keyfacts Modul
+  - [x] Abstand Überschrift im Keyfacts Modul (HTML Aufbau überprüfen)
   - [x] Nachimplementierung iconfont-item in site-inline.scss -> Pfeillinks z.B. in https://kist-escherich-com-v12.ddev.site/de/branchenloesungen
   - [ ] Entfernung figure=table 
   - [ ] Eigene Komponente für Media und Anpassung des Videos https://kist-escherich-com-v12.ddev.site/de/produkte/reinigung/reinigungsmaschinen/traymaster
