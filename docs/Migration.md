@@ -153,7 +153,7 @@
 - [x] Allgemeine Anpassungen
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
-  - [ ] Aktivierung Tabellen-Konfiguration
+  - [x] Aktivierung Tabellen-Konfiguration
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
