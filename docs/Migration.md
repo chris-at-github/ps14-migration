@@ -82,7 +82,7 @@
   - [ ] Powermail-Konfiguraton bereinigen (Absender)
   - [ ] Powermail in der neuesten Version installieren (derzeit Fehler nach dem Abschicken) -> Bugfix in Arbeit
 - [ ] Cleverreach
-  - [ ] Anmeldung auf https://staging.kist-escherich.com/ testen
+  - [x] Anmeldung auf https://staging.kist-escherich.com/ testen
   - [ ] Überprüfen ob Extension geupdated wurde -> PageTs Anpassung wieder entfernen
   - [ ] Formulare in Cleverreach wieder richtig aufbauen
 - [x] Flux
@@ -172,7 +172,7 @@
 - [x] Contact -> wird KistContact
 - [x] Entity
 - [x] EntityProduct
-- [ ] CleverReach
+- [x] CleverReach
 - [x] Powermail
 - [x] Container
 - [x] ContainerColumns
