@@ -154,7 +154,7 @@
   - [x] Seiten aus Modules aus dem Index und aus der Suche entfernen
   - [ ] Aktualisierung JS Bibliotheken über die package.json
   - [x] Aktivierung Tabellen-Konfiguration
-  - [ ] Fehlende CSS Datei auf Kontaktseite fixen (https://kist-escherich-com-v12.ddev.site/assets/css/components/tab.css)
+  - [x] Fehlende CSS Datei auf Kontaktseite fixen (https://kist-escherich-com-v12.ddev.site/assets/css/components/tab.css)
 
 # Back-Port zu ps14_site Extension
 - [ ] Konfiguration RTE *.yaml-Dateien 
