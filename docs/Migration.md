@@ -3,7 +3,7 @@
 - [ ] Download aller Dateien aus fileadmin
 - [ ] TYPO3 austauschen -> auf Version 10
 - [ ] Dateien kopieren
-  - [ ] dist/typo3conf/*
+  - [ ] dist/typo3conf/PackageStates.php
 - [ ] Install Tool aufrufen (https://kist-escherich-com-v12.ddev.site/typo3/install.php)
   - [ ] Dump-Autoload
   - [ ] Cache Clear
@@ -41,6 +41,9 @@
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0110-transfer-db-field-values.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0120-update-content-types.php
   - [ ] https://kist-escherich-com-v12.ddev.site/migrations/wizards/0130-remove-en-categories-from-de-records.php
+- [ ] Install Tool aufrufen (https://kist-escherich-com-v12.ddev.site/typo3/install.php)
+  - [ ] Dump-Autoload
+  - [ ] Cache Clear
 - [ ] Manuelle Schritte
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
@@ -103,7 +106,7 @@
   - [x] Übernahme TCA-Einstellungen aus tt_content (auskommentiert)
   - [x] Übername und Anpassung Spracheinträge aus locallang_tca.xlf
   - [x] Übernahme Sticky-Eigenschaften aus Xo-Extension nach Site-Extension
-  - [ ] Übernahme Configuration
+  - [x] Übernahme Configuration
     - [x] TSConfig
       - [x] Wird das Disabled von tx_fed_page_* noch benötigt?
       - [x] Überprüfung Regeln für TCAdefaults.tx_news_domain_model_news nach der Installation

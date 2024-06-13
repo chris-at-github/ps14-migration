@@ -76,7 +76,7 @@ $query = 'UPDATE sys_file_reference sfr
 $result = $db->query($query);
 
 // ---------------------------------------------------------------------------------------------------------------------
-// Address
+// Content
 $query = 'UPDATE tt_content SET 
 		list_type = "ps14foundation_addressrecord",
     pi_flexform = REPLACE(pi_flexform, "structuredDataMainOpeningHoursCategory", "structuredDataOpeningHoursCategory")
@@ -86,6 +86,12 @@ $result = $db->query($query);
 $query = 'UPDATE tt_content SET 
 		tx_foundation_variant = "imprint"
 	WHERE uid = 68';
+$result = $db->query($query);
+
+$query = 'UPDATE tt_content SET 
+		tx_foundation_variant = "16-9"
+	WHERE CType = "ps14_hero"
+		AND pi_flexform LIKE "%<value index=\"vDEF\">16-9</value>%"';
 $result = $db->query($query);
 
 // ---------------------------------------------------------------------------------------------------------------------
