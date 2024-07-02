@@ -42,6 +42,12 @@ $query = 'UPDATE tt_content SET
 	WHERE CType = "ce_marker"';
 $result = $db->query($query);
 
+$query = 'UPDATE tt_content SET 
+		tx_foundation_variant = "image-above"
+	WHERE CType = "ps14_marker"
+		AND tx_foundation_variant = "1"';
+$result = $db->query($query);
+
 $query = 'UPDATE tx_foundation_domain_model_elements SET 
 		record_type = "ps14_marker_default"      
 	WHERE record_type = "ce_marker_default"';
