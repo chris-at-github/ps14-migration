@@ -48,6 +48,12 @@
   - [ ] Address Plugin auf Kontaktseiten überarbeiten -> korrekte Kategorie für structuredDataOpeningHoursCategory auswählen
 
 # Offene Punkte
+- [ ] Finale Migration
+  - [ ] Überprüfung korrekte Zielseite Navigation -> News nach erneuten DB-Migration
+  - [ ] Überprüfung ps14_marker / Variante Image Above nach DB-Migration
+  - [x] Abstand Marker Aside für das erste Element (siehe Mail Andrea)
+  - [x] Übernahme Play / Pause Button für Hero-Video
+  - [x] Übernahme Video CSS Code für Hero Video (https://github.com/chris-at-github/ps14-ce-hero/blob/master/Resources/Public/Sass/hero.scss)
 - [x] EntityProduct
   - [x] Erstellung Chart-Extension trage sie als Abhängigkeit ein
   - [x] Teaser Extension als Abhängigkeit hinterlegen
