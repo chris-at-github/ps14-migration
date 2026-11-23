@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# Migration of an older TYPO3 project to the ps14 template (TYPO3 v14).
+# Runs inside the DDEV web container from the project root:
+#
+#   ddev exec vendor/bin/ps14-migrate
+#
+# The steps are added in Task 4 of the plan (ps14-typo3/docs/plans/migration-tool.md).
+
+set -euo pipefail
+
+echo "ps14-migrate: not implemented yet (see docs/plans/migration-tool.md, Task 4)" >&2
+exit 1
