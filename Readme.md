@@ -25,6 +25,23 @@ ddev composer remove --dev ps14/ps14_migration
 | `Resources/Private/Sql/pre/` | generische SQL-Skripte vor dem Schema-Update |
 | `Resources/Private/Sql/post/` | generische SQL-Skripte nach den Wizards |
 
+## Enthaltene Schritte
+
+| Schritt | Inhalt |
+|---|---|
+| Pre-SQL `0010_sys_reaction_primary_key.sql` | `sys_reaction.uid` als Primärschlüssel (Tabelle aus EXT:external_import ohne `uid`) |
+| `ps14:migration:update-schema` | Schema add/change ohne `_cli_`-Anmeldung; `--skip=<tabelle>.<spalte>` für Änderungen, die Daten zerstören würden |
+| `ps14Migration_navigationContentMigration` | ps14_foundation 2.x: MM-Tabelle → UID-Liste in `pages.tx_foundation_navigation_content` |
+| `ps14Migration_navigationLayoutMigration` | ps14_foundation 2.x: `tx_foundation_navigation_layout` `'0'` → `''` |
+| `ps14Migration_pageTypeLinkMigration` | ps14_foundation 2.x: Seitentyp 120 → Core-Seitentyp „Link“ (3), `url` → `link` |
+| `ps14Migration_containerRatioMigration` | ps14_container 2.x: Spaltenbreiten → `ratio`; nicht exakte Fälle werden ausgegeben |
+| Post-SQL `0010`, `0020` | entfernt `tx_foundation_pages_content_mm` und `pages.url` (nach den Wizards) |
+
+Nach einem erfolgreichen Lauf steht ein Eintrag in `sys_registry`
+(`ps14_migration`/`completed`); ein zweiter Lauf bricht ab (`--force` zum
+Übergehen). `extension:setup` wird bewusst nicht aufgerufen, weil es auch
+die mit `--skip` ausgenommenen Spaltenänderungen anwendet.
+
 ## Projektspezifisches
 
 Liegt im Projekt und wird nach der letzten Datenübernahme (Go-Live) gelöscht:

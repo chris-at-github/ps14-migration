@@ -20,6 +20,11 @@
         "php": "^8.4",
         "typo3/cms-core": "^14.3"
     },
+    "autoload": {
+        "psr-4": {
+            "Ps14\\Migration\\": "Classes/"
+        }
+    },
     "bin": [
         "bin/ps14-migrate"
     ],
