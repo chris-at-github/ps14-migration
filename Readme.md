@@ -37,6 +37,7 @@ ddev composer remove --dev ps14/ps14_migration
 | `ps14Migration_containerRatioMigration` | ps14_container 2.x: Spaltenbreiten → `ratio`; nicht exakte Fälle werden ausgegeben |
 | `ps14Migration_accordionElementsMigration`, `…_tabsElementsMigration`, `…_timelineElementsMigration` | ps14_foundation 2.x Elements → Collections der Content Blocks aus `ps14_modules` (`AbstractElementsMigration`: gleiche UIDs, Dateireferenzen, Zähler, verschachtelte Inhalte) |
 | `ps14Migration_downloadsMigration` | ps14_downloads 12.x: CType `ps14_downloads` → `uploads` (ps14_downloads v14), Dateien `tx_foundation_file` → `media`, Beschreibung und Größe eingeschaltet |
+| `ps14Migration_addressMigration` | ps14_foundation 2.x / tt_address 9 → ps14_address v14: Felder `tx_foundation_*` → `tx_address_*`, YouTube → `youtubechannel`, Öffnungszeiten → `tx_address_openinghours` (gleiche UIDs), Plugin `ps14foundation_addressrecord` → CType `ps14_address` inkl. FlexForm; nur wenn ps14_address installiert ist |
 | Post-SQL `0010`, `0020` | entfernt `tx_foundation_pages_content_mm` und `pages.url` (nach den Wizards) |
 
 Nach einem erfolgreichen Lauf steht ein Eintrag in `sys_registry`
