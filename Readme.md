@@ -36,6 +36,7 @@ ddev composer remove --dev ps14/ps14_migration
 | `ps14Migration_pageTypeLinkMigration` | ps14_foundation 2.x: Seitentyp 120 → Core-Seitentyp „Link“ (3), `url` → `link` |
 | `ps14Migration_containerRatioMigration` | ps14_container 2.x: Spaltenbreiten → `ratio`; nicht exakte Fälle werden ausgegeben |
 | `ps14Migration_accordionElementsMigration`, `…_tabsElementsMigration`, `…_timelineElementsMigration` | ps14_foundation 2.x Elements → Collections der Content Blocks aus `ps14_modules` (`AbstractElementsMigration`: gleiche UIDs, Dateireferenzen, Zähler, verschachtelte Inhalte) |
+| `ps14Migration_downloadsMigration` | ps14_downloads 12.x: CType `ps14_downloads` → `uploads` (ps14_downloads v14), Dateien `tx_foundation_file` → `media`, Beschreibung und Größe eingeschaltet |
 | Post-SQL `0010`, `0020` | entfernt `tx_foundation_pages_content_mm` und `pages.url` (nach den Wizards) |
 
 Nach einem erfolgreichen Lauf steht ein Eintrag in `sys_registry`
